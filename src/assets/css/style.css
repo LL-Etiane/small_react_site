@@ -1,0 +1,31 @@
+.home_herro_section {
+    height: 80vh;
+    background-image: url('../images/bg1.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.home_herro_section--text {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.home_herro_section--text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.gbtn {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #603eff;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 720px) {
+    
+}
